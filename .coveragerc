@@ -1,0 +1,19 @@
+[run]
+branch = true
+source =
+    python_utils/
+
+[paths]
+source =
+    python_utils/
+
+[report]
+show_missing = true
+sort = Miss
+fail_under = 35
+skip_empty = true
+omit =
+    *__init__*
+    *__about__*
+    *test*
+    *prometheus*
